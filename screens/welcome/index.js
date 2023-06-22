@@ -50,8 +50,8 @@ const styles = StyleSheet.create({
     width: 256,
     height: 78,
     position: "absolute",
-    top: 144,
-    left: 63
+    top: 141,
+    left: 56
   }
 });
 export default WelcomeScreen;
