@@ -1,3 +1,4 @@
+import { ImageBackground } from "react-native";
 import React from "react";
 import { Text, StyleSheet, View, Image, Pressable } from "react-native";
 
@@ -8,13 +9,15 @@ const WelcomeScreen = () => {
       <Text style={styles.subText}>{"\n      Welcome to Atomic Biometrics"}</Text>
       <Button buttonText={"Sign Up"} />
       <Button buttonText={"Log In"} outline={true} />
-    </View>;
+    <ImageBackground style={styles.VLenvTQx}></ImageBackground><ImageBackground style={styles.tDVUjQgh} source={{
+      uri: "https://i0.wp.com/atomicbiometrics.com/wp-content/uploads/2022/11/AB-Logo-FINAL_WEB-SMALL-1.png?resize=200%2C63&ssl=1"
+    }} resizeMode="stretch"></ImageBackground></View>;
 };
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#d4d961",
+    backgroundColor: "#d92121",
     justifyContent: "flex-end",
     paddingBottom: 50
   },
@@ -29,7 +32,8 @@ const styles = StyleSheet.create({
     fontSize: 26,
     fontWeight: "bold",
     marginVertical: 10,
-    textAlign: "center"
+    textAlign: "center",
+    fontFamily: "Merriweather"
   },
   subText: {
     fontSize: 14,
@@ -37,6 +41,17 @@ const styles = StyleSheet.create({
     textAlign: "center",
     marginHorizontal: 40,
     marginVertical: 10
+  },
+  VLenvTQx: {
+    width: 107,
+    height: 62
+  },
+  tDVUjQgh: {
+    width: 189,
+    height: 73,
+    position: "absolute",
+    top: 149,
+    left: 83
   }
 });
 export default WelcomeScreen;
