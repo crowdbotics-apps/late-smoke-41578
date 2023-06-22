@@ -17,7 +17,7 @@ const WelcomeScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#d92121",
+    backgroundColor: "#f9f4f4",
     justifyContent: "flex-end",
     paddingBottom: 50
   },
@@ -78,7 +78,8 @@ const buttonStyles = StyleSheet.create({
     paddingTop: 10,
     paddingHorizontal: 40,
     justifyContent: "center",
-    marginTop: 20
+    marginTop: 20,
+    borderRadius: 50
   },
   btn: {
     backgroundColor: "black",
@@ -96,6 +97,8 @@ const buttonStyles = StyleSheet.create({
   btnText: {
     color: "#fff",
     fontSize: 16,
-    fontWeight: "bold"
+    fontWeight: "bold",
+    fontFamily: "Montserrat",
+    opacity: 0.87
   }
 });
