@@ -14,7 +14,7 @@ const WelcomeScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#9c3208",
+    backgroundColor: "#d4d961",
     justifyContent: "flex-end",
     paddingBottom: 50
   },
