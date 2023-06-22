@@ -8,7 +8,7 @@ const WelcomeScreen = () => {
       <Text style={styles.mainText}>Welcome back!</Text>
       <Text style={styles.subText}>{"\n      Welcome to Atomic Biometrics"}</Text>
       <Button buttonText="Verify" />
-      <Button buttonText={"Log In"} outline={true} />
+      <Button buttonText="Enroll" outline={true} />
     <ImageBackground style={styles.VLenvTQx}></ImageBackground><ImageBackground style={styles.tDVUjQgh} source={{
       uri: "https://i0.wp.com/atomicbiometrics.com/wp-content/uploads/2022/11/AB-Logo-FINAL_WEB-SMALL-1.png?resize=200%2C63&ssl=1"
     }} resizeMode="cover"></ImageBackground></View>;
