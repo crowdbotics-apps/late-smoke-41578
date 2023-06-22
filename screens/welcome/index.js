@@ -7,7 +7,7 @@ const WelcomeScreen = () => {
       <Image source={require("./assets/companyLogo.png")} style={styles.logo} />
       <Text style={styles.mainText}>Welcome back!</Text>
       <Text style={styles.subText}>{"\n      Welcome to Atomic Biometrics"}</Text>
-      <Button buttonText={"Sign Up"} />
+      <Button buttonText="Verify" />
       <Button buttonText={"Log In"} outline={true} />
     <ImageBackground style={styles.VLenvTQx}></ImageBackground><ImageBackground style={styles.tDVUjQgh} source={{
       uri: "https://i0.wp.com/atomicbiometrics.com/wp-content/uploads/2022/11/AB-Logo-FINAL_WEB-SMALL-1.png?resize=200%2C63&ssl=1"
@@ -95,7 +95,7 @@ const buttonStyles = StyleSheet.create({
     flexDirection: "row"
   },
   btnText: {
-    color: "#fff",
+    color: "#7d0d0d",
     fontSize: 16,
     fontWeight: "bold",
     fontFamily: "Montserrat",
