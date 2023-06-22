@@ -11,7 +11,7 @@ const WelcomeScreen = () => {
       <Button buttonText={"Log In"} outline={true} />
     <ImageBackground style={styles.VLenvTQx}></ImageBackground><ImageBackground style={styles.tDVUjQgh} source={{
       uri: "https://i0.wp.com/atomicbiometrics.com/wp-content/uploads/2022/11/AB-Logo-FINAL_WEB-SMALL-1.png?resize=200%2C63&ssl=1"
-    }} resizeMode="stretch"></ImageBackground></View>;
+    }} resizeMode="cover"></ImageBackground></View>;
 };
 
 const styles = StyleSheet.create({
@@ -47,11 +47,11 @@ const styles = StyleSheet.create({
     height: 62
   },
   tDVUjQgh: {
-    width: 189,
-    height: 73,
+    width: 256,
+    height: 78,
     position: "absolute",
-    top: 149,
-    left: 83
+    top: 144,
+    left: 63
   }
 });
 export default WelcomeScreen;
